@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Rubik+Vinyl&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Livvic");
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.header {
+  color:black;
+  border-radius :10px;
+}
+.header span {
+  font-family: "Rubik Vinyl";
+  text-align: center;
+}
+
+.divisions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Livvic";
+  border-radius: 10px;
+  border: 10px;
+  border-color: aquamarine;
+}
+
+.divisions .text {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding-left: 2em;
+  padding-top: 1em;
+  padding-right: 2em;
+  padding-bottom: 15em;
+  size: 0.5em;
+  height: 18em;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  border-radius: 10px;
+  border: 10px solid rgb(226, 226, 226);
+  border-color: rgb(255, 255, 255);
+  font-size: 1em;
+}
+
+.divisions .text:hover{
+  background-color: rgb(203, 197, 208);
+  border-color: aqua;
+  border-radius: 10px;
+  border: 10px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  font-size: 1.2em;
+  transition: 1s;
+
+}
+.divisions .text h2 {
+  text-align: center;
+}
+
+.divisions .text p {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.body1 .mmm-text .mmm {
+  size: 0.5em;
+  height: 20em;
+}
+
+.footer {
+  background-color: rgb(255, 255, 255);
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .fleft {
+  margin: 0;
+  padding-left: 1em;
+  display: flex;
+  align-items: center;
+}
+.footer .fleft .cq_logo {
+  align-self: center;
+  height: 3em;
+  border-radius: 5em;
+}
+.footer .fright {
+  width: 15%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.footer .fright .logo {
+  height: 3em;
+}
+
+.footer .fright .logo:hover{
+  height: 4em;
+  transition: 1s;
+}
+
+.footer .fmid {
+  text-align: center;
+  padding-left: 13em;
+  color: white;
+  font-family: "Livvic";
+}
+
+.footer .fmid:hover{
+  color: black;
+  transition: 1s;
+}
